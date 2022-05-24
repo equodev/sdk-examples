@@ -51,6 +51,7 @@ a {
 
     padding: 25px;
     margin: 15px;
+    cursor: pointer;
 }
 
 .useful-minicard:hover {

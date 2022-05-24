@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="./styles/app.css">
 
 <body>
+    <script src="./scripts/handlers.js"></script>
     <div class="container">
         <img class="logo" src="https://sfo2.digitaloceanspaces.com/equo-cms/2020/08/28/5f495e535cda5Isotipo.png">
         <h1>Welcome to your first Equo App</h1>
@@ -13,40 +14,41 @@
             check out the <a href="https://docs.equo.dev/"> SDK documentation</a> .</p>
         <h2>Useful Links</h2>
         <div class="useful-links">
-            <div class="useful-minicard">
-                <a class="link" href="https://docs.equo.dev/sdk/1.0.x/getting-started/creating.html">
-                    Development guide
-                    <img class="arrow-icon"
-                        src="./assets/arrow-icon.png" />
-                </a>
-            </div>
-            <div class="useful-minicard">
-                <a class="link" href="https://docs.equo.dev/sdk/1.0.x/developing/hot-reload.html">
-                    Web UI frameworks Development
-                    <img class="arrow-icon"
-                    src="./assets/arrow-icon.png" />
-                </a>
-            </div>
+            <a class="useful-minicard link" href="https://docs.equo.dev/sdk/1.0.x/index-api-javascript.html">
+                Javascript API documentation
+                <img class="arrow-icon"
+                src="./assets/arrow-icon.png" />
+            </a>
+            <a class="useful-minicard link" href="https://docs.equo.dev/sdk/1.0.x/index-api-java.html">
+                Java API Documentation
+                <img class="arrow-icon"
+                src="./assets/arrow-icon.png" />
+            </a>
         </div>
         <div class="useful-links">
-            <div class="useful-minicard">
-                <a class="link" href="https://docs.equo.dev/sdk/1.0.x/index-api-javascript.html">
-                    Javascript API documentation
-                    <img class="arrow-icon"
+            <a class="useful-minicard link" href="https://docs.equo.dev/sdk/1.0.x/getting-started/creating.html">
+                Development guide
+                <img class="arrow-icon"
                     src="./assets/arrow-icon.png" />
-                </a>
+            </a>
+        </div>
+
+        <h2>Test SDK Features</h2>
+        <div class="useful-links">
+            <div class="useful-minicard" onclick="sendWelcomeMessage()" >
+                Send message to Java
+                <img class="arrow-icon"
+                src="./assets/arrow-icon.png" />
             </div>
-            <div class="useful-minicard">
-                <a class="link" href="https://docs.equo.dev/sdk/1.0.x/index-api-java.html">
-                    Java API documentation
-                    <img class="arrow-icon"
-                    src="./assets/arrow-icon.png" />
-                </a>
+            <div class="useful-minicard" id="payload-holder" onclick="getExamplePayload()" >
+                Obtain payload from Java
+                <img class="arrow-icon"
+                src="./assets/arrow-icon.png" />
             </div>
         </div>
 
         <h2>Ecosystem</h2>
-        <p>Learn Equo <a href="https://equo.dev">here!</a> </p>
+        <p>Learn about Equo <a href="https://equo.dev">here!</a> </p>
     </div>
 
 
