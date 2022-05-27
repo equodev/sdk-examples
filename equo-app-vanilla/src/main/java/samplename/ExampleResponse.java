@@ -1,4 +1,4 @@
-package myapp;
+package samplename;
 
 public class ExampleResponse {
 
