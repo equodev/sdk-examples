@@ -22,11 +22,6 @@
     ]
   },
   {
-    "title": "Advanced Equo WebWrapper",
-    "slug": "advanced-equo-webwrapper",
-    "webWrapper": true
-  },
-  {
     "title": "Kotlin App",
     "slug": "kotlin",
     "frontends": [
