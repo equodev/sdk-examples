@@ -28,5 +28,10 @@
       "REACT",
       "VANILLA"
     ]
+  },
+  {
+    "title": "Eclipse RCP",
+    "slug": "equo-p2",
+    "p2": true
   }
 ]
